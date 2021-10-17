@@ -1,0 +1,20 @@
+.oscillators {
+    width: 150px;
+    height: 30px;
+    border: 1px solid lightgray;
+}
+
+.oscillators:active {
+    background-color: grey;
+}
+
+.displayOscillators {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hideOscillators {
+    display: none;
+}
